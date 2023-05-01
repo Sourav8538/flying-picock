@@ -1,0 +1,443 @@
+body{
+    background-color: rgb(152, 192, 7);
+}
+#main{
+    height:800px;
+    width: 1200px; 
+    margin-right:800px;
+    position: relative;
+    border: 2ppx solid red ;
+    /* animation-name: sliding;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+@keyframes sliding {
+  0%{
+    margin-left:500px;
+  }
+  25%{
+    margin-left:400px ;
+  }
+  50%{
+    margin-left:300px ;
+  }
+  75%{
+    margin-left:200px ;
+  }
+  100%{
+    margin-left:1px ;
+  }
+}
+#body{
+    height: 90px;
+    width:170px;
+    border-radius: 42%;
+    border-top: 5px solid rgb(14, 44, 14);
+    border-bottom: 2px solid rgb(114, 21, 244);
+    background-color: rgb(21, 4, 134);
+    position: absolute;
+    right:300px;
+    top: 200px;
+}
+#neack{
+    height: 115px;
+    width:27px;
+    border-right: 10px solid rgb(6, 28, 38);
+    
+    background-color: rgb(21, 4, 134);
+    position: absolute;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 62%;
+    right:448px;
+    top: 141px;
+    transform: rotate(185deg);
+}
+#head{
+    height: 36px;
+    width:64px;
+    border: 2px solid green;
+    border-radius: 50%;
+    position: absolute;
+    right:451px;
+    top: 129px;
+    border-left: none;
+    rotate:350deg;
+    background-color: rgb(22, 7, 152);
+}
+/* head ka uppor ka flower */
+#hf1{
+    height: 20px;
+    width:2px;
+    border: 2px solid rgb(14, 18, 14);
+    background-color: rgb(6, 12, 16);
+    position: absolute;
+    border-radius: 40%;
+    right:468px;
+    top: 110px;
+    rotate: 50deg;
+}
+#hf2{
+    height: 20px;
+    width:2px;
+    border: 2px solid rgb(14, 18, 14);
+    background-color: rgb(6, 12, 16);
+    position: absolute;
+    border-radius: 40%;
+    right:478px;
+    top: 110px;
+    rotate: 45deg;
+}
+#hf3{
+    height: 20px;
+    width:2px;
+    border: 2px solid rgb(14, 18, 14);
+    background-color: rgb(6, 12, 16);
+    position: absolute;
+    border-radius: 40%;
+    right:491px;
+    top: 113px;
+    rotate: 40deg;
+}
+#hf1eye{
+    height: 8px;
+    width:8px;
+    border: 2px solid rgb(52, 14, 206);
+    background-color: rgb(44, 7, 252);
+    border-radius: 50%;
+    position: absolute;
+    right:458px;
+    top: 106px;
+    
+}
+#hf2eye{
+    height: 8px;
+    width:8px;
+    border: 2px solid rgb(14, 14, 18);
+    background-color: rgb(9, 119, 192);
+    border-radius: 50%;
+    position: absolute;
+    right:470px;
+    top: 106px;
+    
+}
+#hf3eye{
+    height: 8px;
+    width:8px;
+    border: 2px solid rgb(14, 18, 14);
+    background-color: rgb(10, 17, 226);
+    border-radius: 50%;
+    position: absolute;
+    right:483px;
+    top: 111px;
+    
+}
+
+/* hfeye code end */
+
+#eye{
+    height: 10px;
+    width:10px;
+    border: 2px solid rgb(14, 18, 14);
+    background-color: rgb(6, 12, 16);
+    border-radius: 50%;
+    position: absolute;
+    right:484px;
+    top: 143px;
+    
+}
+#eyepoint{
+    height: 5px;
+    width:5px;
+    border: 2px solid rgb(14, 18, 14);
+    background-color: rgb(190, 238, 191);
+    border-radius: 50%;
+    position: absolute;
+    right:488px;
+    top: 146px;
+    
+}
+#leapu{
+    height: 21px;
+    width:23px;
+    border-top: 5px solid rgb(3, 72, 3);
+    position: absolute;
+
+    right:508px;
+    top: 157px;
+    border-top-left-radius:158% ;
+    border-top-right-radius: 169%;
+    rotate: 1deg;
+}
+#leapl{
+    height: 21px;
+    width:23px;
+    border-top: 5px solid rgb(2, 100, 2);
+    position: absolute;
+    border-top-left-radius:50% ;
+    rotate: 330deg;
+    right:507px;
+    top: 150px;
+    
+
+
+}
+#wingsb{
+    height: 60px;
+    width:133px;
+    border-top: 2px solid rgb(19, 3, 17);
+    border-right: 2px solid rgb(7, 0, 7);
+    background-color: rgb(24px4, 24px0, 24px0);
+ border-bottom-right-radius:34% ;
+border-top-right-radius: 40%;
+background-color: rgb(21, 4, 134);
+border-bottom: 10px solid rgb(68, 8, 220);
+border-bottom-left-radius: 161%;
+position: absolute;
+    right: 250px;
+    top: 180px;
+    transform: rotate(338deg);
+    animation-name: flyingw1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes flyingw1{
+    0%{ right: 250px;
+        top: 180px;
+        transform: rotate(338deg)}
+    25%{ right: 250px;
+        top: 180px;
+        transform: rotate(348deg)
+    }
+
+    50%{  right: 250px;
+        top: 180px;
+        transform: rotate(338deg);}
+        75%{
+            right: 250px;
+            top: 180px;
+            transform: rotate(348deg)
+        }
+    100%{ right: 250px;
+        top: 180px;
+        transform: rotate(338deg)
+    }
+}
+
+#wingss1
+{
+    height: 46px;
+    width:108px;
+    border-top-left-radius: 50%;
+    border-top: 10px solid rgb(16, 23, 224);
+    border-right: 2px solid rgb(17, 122, 243);
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius:50% ;
+    position: absolute;
+    background-color: rgb(21, 4, 134);
+    right:319px;
+    top: 150px;
+    transform: rotate(318deg);
+    animation-name: flyingw2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flyingw2
+{
+    0%{ right: 331px;
+        top: 147px;
+        transform: rotate(318deg);
+        }
+    25%{ right:319px;
+        top: 150px;
+        transform: rotate(315deg)
+    }
+    50%{right: 331px;
+        top: 147px;
+        transform: rotate(318deg);
+       }
+        75%{ right:319px;
+            top: 150px; 
+            transform: rotate(315deg) }
+    100%{right: 331px;
+        top: 147px;
+        transform: rotate(318deg); }
+}
+
+/* style for tail start */
+#tail1{
+    height: 100px;
+    width:350px;
+  border-top: 2px red solid;
+   border-top-left-radius: 50%;
+    position: absolute;
+    right:21px;
+    top: 306px;
+    transform: rotate(46deg);
+    
+}
+
+#tail5{
+    height: 117px;
+    width:370px;
+   border: 2px solid red;
+   border-radius: 31%;
+    position: absolute;
+    right:14px;
+    top: 325px;
+    transform: rotate(-318deg);
+    border-left: none;
+    border-top: none;
+    background-color: rgb(168, 127, 181);
+}
+
+#p4{
+    height: 50px;
+    width:24px;
+    
+    border-top-right-radius: 50%;
+    border:14px solid rgb(21, 4, 132);
+    border-left: none;
+    border-bottom: none;
+    
+    border-top: none;
+    right:-21px;
+    top:13px;
+    rotate: 102deg;
+    position: absolute
+    
+}
+#p2{
+    height: 50px;
+    width:24px;
+    border:14px solid rgb(21, 4, 132);
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-top-right-radius: 50%;
+    
+    right:-40px;
+    top:-15px;
+    rotate: 116deg;
+    position: absolute
+}
+#p3{
+    height: 49px;
+    width:24px;
+    border:14px solid rgb(21, 4, 132);
+    border-left: none;
+    border-top: none;
+   
+    border-top-right-radius: 50%;
+    border-bottom: none;
+
+    right:-23px;
+    top:-2px;
+    rotate: 111deg;
+    position: absolute
+
+}
+#leg1{
+    position: absolute;
+    background-color: rgb(254, 246, 6);
+    height: 20px;
+    width: 10px;
+    left: 790px;
+    top:290px;
+}
+#subleg1{
+    position: absolute;
+    background-color: rgb(94, 27, 8);
+    height: 40px;
+    width: 10px;
+    left: 779px;
+    top: 303px;
+    rotate: 43deg;
+    border-radius: 20%;
+}
+
+#leg2{
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    background-color: rgb(240, 224, 10);
+    left: 770px;
+    top:288px;
+}
+#subleg2{
+    position: absolute;
+    background-color: rgb(147, 34, 19);
+    height: 40px;
+    width: 10px;
+    left: 756px;
+    top:298px;
+    rotate: 56deg;
+    border-radius: 20%;
+}
+
+#thead{
+    height: 36px;
+    width:64px;
+    margin: -9px -10px;
+   padding: 2px 7px;
+    border: 2px solid rgb(205, 8, 162);
+    border-radius: 50%;
+    /* position: absolute;
+    right:451px;
+    top: 129px; */
+    border-left: none;
+    rotate:350deg;
+    background-color: rgb(23, 227, 4);  
+    box-shadow: 1px 1px 5px darkgreen;
+
+}
+#teye{
+    height: 20px;
+    width:35px;
+    margin: 1px 1px;
+   
+   
+    align-items: center;
+    border: 5px solid rgb(251, 108, 7);
+    background-color: rgb(7, 7, 211);
+    border-radius: 50%;
+    box-shadow: 6px 1px 5px black;
+    /* position: absolute;
+    right:484px;
+    top: 143px; */
+}
+#teyepoint{
+   margin: 4px 7px;
+    height: 7px;
+    width:10px;
+    border: 4px solid rgb(252, 206, 224);
+    background-color: rgb(5, 18, 27);
+    border-radius: 50%;
+    /* right:488px;
+    top: 146px;
+    position: absolute; */
+    
+}
+
+#tailstyle{
+    height: 117px;
+    width: 370px;
+    display:flex;
+    flex-wrap: wrap;
+    animation-name: pekham;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes pekham
+{
+    0%{height: 115px;
+        width: 370px;}
+    25%{ height: 125px;
+        width: 370px;}
+    50%{height: 135px;
+        width: 370px;}
+    75%{height: 142px;
+        width: 370px; }
+    100%{height: 148px;
+        width: 370px;}
+}
